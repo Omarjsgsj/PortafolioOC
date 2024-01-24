@@ -13,7 +13,7 @@ function typeWriter(elementId, text, delay = 50) {
 // Inicia el efecto con cada línea
 window.onload = function() {
     typeWriter('line1', 'Hola!');
-    setTimeout(() => typeWriter('line2', '  Y Soy'), 500); // Ajusta el tiempo según la longitud del texto anterior
+    setTimeout(() => typeWriter('line2', 'Soy Omar Camacho'), 500); // Ajusta el tiempo según la longitud del texto anterior
     setTimeout(() => typeWriter('line3', 'Desarrollador Web'), 1500); // Ajusta el tiempo según la longitud del texto anterior
 };
 
