@@ -119,9 +119,13 @@ nav a:hover {
     color: #000;
 }
 
-.important-text {
+#line1, #line3 {
+            color: white;
+        } 
+
+#line2 {
     font-weight: bold; /* Texto en negritas */
-    color: #007FFF; /* Color azul marino (#000080 es un tono común de azul marino) */
+    color: cyan; /* Color azul marino (#000080 es un tono común de azul marino) */
 }
 
 .circular-image {
